@@ -6,6 +6,7 @@ import Footer from '@/components/footer'
 import SearchMenu from '@/components/search-menu'
 import { ThemeProvider } from '@/components/theme-provider'
 import { SupabaseDataProvider } from '@/components/supabase-provider'
+import SpaceTimeFabric from '@/components/space-time-fabric'
 
 export const metadata: Metadata = {
   title: {
@@ -64,10 +65,11 @@ html { font-family: var(--font-mono); }
       <body className="min-h-dvh bg-white text-black dark:bg-black dark:text-white antialiased" suppressHydrationWarning={true}>
         <SupabaseDataProvider>
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+            <SpaceTimeFabric />
             <Navbar />
             <SideNav />
             {/* Mirrored right-side border for desktop symmetry */}
-            <div className="fixed right-0 top-0 h-screen w-14 border-l border-neutral-200/80 dark:border-neutral-800/80 z-40 hidden md:block pointer-events-none" />
+            <div className="fixed right-0 top-0 h-screen w-14 z-40 hidden md:block pointer-events-none bg-gradient-to-l from-white/25 dark:from-black/20 to-transparent backdrop-blur-[1px] border-l border-neutral-200/40 dark:border-neutral-800/40" />
             {children}
             <Footer />
             <SearchMenu />

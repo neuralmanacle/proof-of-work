@@ -338,7 +338,7 @@ function PortfolioContent() {
           {currentSection === "tech" && (
             <section
               id="tech"
-              className="space-y-6 scroll-mt-28 animate-fade-in"
+              className="space-y-6 scroll-mt-[68px] md:scroll-mt-36 animate-fade-in"
             >
               <h2 className="text-sm font-mono text-neutral-900 dark:text-neutral-100 uppercase tracking-wider font-bold mb-4">
                 blog
@@ -375,7 +375,7 @@ function PortfolioContent() {
           {currentSection === "products" && (
             <section
               id="products"
-              className="space-y-6 scroll-mt-28 animate-fade-in"
+              className="space-y-6 scroll-mt-[68px] md:scroll-mt-36 animate-fade-in"
             >
               <h2 className="text-sm font-mono text-neutral-900 dark:text-neutral-100 uppercase tracking-wider font-bold mb-4">
                 products
@@ -387,7 +387,7 @@ function PortfolioContent() {
           )}
 
           {currentSection === "demos" && (
-            <section id="demos" className="space-y-6 scroll-mt-28 animate-fade-in">
+            <section id="demos" className="space-y-6 scroll-mt-[68px] md:scroll-mt-36 animate-fade-in">
               <h2 className="text-sm font-mono text-neutral-900 dark:text-neutral-100 uppercase tracking-wider font-bold mb-4">
                 demos
               </h2>
@@ -398,7 +398,7 @@ function PortfolioContent() {
           )}
 
           {currentSection === "setup" && (
-            <section id="setup" className="space-y-6 scroll-mt-28 animate-fade-in">
+            <section id="setup" className="space-y-6 scroll-mt-[68px] md:scroll-mt-36 animate-fade-in">
               <h2 className="text-sm font-mono text-neutral-900 dark:text-neutral-100 uppercase tracking-wider font-bold mb-4">
                 setup
               </h2>
@@ -410,7 +410,7 @@ function PortfolioContent() {
 
           {/* MUSIC TECH — BOOKS SECTION */}
           {currentSection === "books" && (
-            <section id="books" className="space-y-6 scroll-mt-28 animate-fade-in">
+            <section id="books" className="space-y-6 scroll-mt-[68px] md:scroll-mt-36 animate-fade-in">
               <h2 className="text-sm font-mono text-neutral-900 dark:text-neutral-100 uppercase tracking-wider font-bold mb-4">
                 reading
               </h2>
@@ -581,7 +581,7 @@ function PortfolioContent() {
 
           {/* MUSIC SECTION */}
           {currentSection === "music" && (
-            <section id="music" className="space-y-6 scroll-mt-28 animate-fade-in">
+            <section id="music" className="space-y-6 scroll-mt-[68px] md:scroll-mt-36 animate-fade-in">
               <h2 className="text-sm font-mono text-neutral-900 dark:text-neutral-100 uppercase tracking-wider font-bold mb-4">
                 music
               </h2>
@@ -605,7 +605,7 @@ function PortfolioContent() {
 
           {/* ARTICLES & ESSAYS SECTION */}
           {currentSection === "articles" && (
-            <section id="articles" className="space-y-6 scroll-mt-28 animate-fade-in">
+            <section id="articles" className="space-y-6 scroll-mt-[68px] md:scroll-mt-36 animate-fade-in">
               <h2 className="text-sm font-mono text-neutral-900 dark:text-neutral-100 uppercase tracking-wider font-bold mb-4">
                 articles & essays
               </h2>
@@ -639,7 +639,7 @@ function PortfolioContent() {
 
           {/* POETRY SECTION */}
           {currentSection === "poetry" && (
-            <section id="poetry" className="space-y-6 scroll-mt-28 animate-fade-in">
+            <section id="poetry" className="space-y-6 scroll-mt-[68px] md:scroll-mt-36 animate-fade-in">
               <h2 className="text-sm font-mono text-neutral-900 dark:text-neutral-100 uppercase tracking-wider font-bold mb-4">
                 poetry
               </h2>
@@ -674,7 +674,7 @@ function PortfolioContent() {
 
           {/* PHOTOGRAPHY SECTION */}
           {currentSection === "photography" && (
-            <section id="photography" className="space-y-6 scroll-mt-28 animate-fade-in">
+            <section id="photography" className="space-y-6 scroll-mt-[68px] md:scroll-mt-36 animate-fade-in">
               <h2 className="text-sm font-mono text-neutral-900 dark:text-neutral-100 uppercase tracking-wider font-bold mb-4">
                 photography
               </h2>
@@ -684,7 +684,7 @@ function PortfolioContent() {
 
           {/* BOOKS SECTION */}
           {currentSection === "bookshelf" && (
-            <section id="bookshelf" className="space-y-6 scroll-mt-28 animate-fade-in">
+            <section id="bookshelf" className="space-y-6 scroll-mt-[68px] md:scroll-mt-36 animate-fade-in">
               <h2 className="text-sm font-mono text-neutral-900 dark:text-neutral-100 uppercase tracking-wider font-bold mb-4">
                 reading nook
               </h2>
@@ -869,7 +869,7 @@ function PortfolioContent() {
 
           {/* FILM AND ACTING SECTION */}
           {currentSection === "film-and-acting" && (
-            <section id="film-and-acting" className="space-y-6 scroll-mt-28 animate-fade-in">
+            <section id="film-and-acting" className="space-y-6 scroll-mt-[68px] md:scroll-mt-36 animate-fade-in">
               <h2 className="text-sm font-mono text-neutral-900 dark:text-neutral-100 uppercase tracking-wider font-bold mb-4">
                 film and acting
               </h2>
@@ -966,7 +966,7 @@ function PortfolioContent() {
 
           {/* FASHION SECTION */}
           {currentSection === "fashion" && (
-            <section id="fashion" className="space-y-6 scroll-mt-28 animate-fade-in">
+            <section id="fashion" className="space-y-6 scroll-mt-[68px] md:scroll-mt-36 animate-fade-in">
               <h2 className="text-sm font-mono text-neutral-900 dark:text-neutral-100 uppercase tracking-wider font-bold mb-4">
                 fashion
               </h2>
@@ -1000,27 +1000,91 @@ function PortfolioContent() {
           {currentSection === "about-me" && (
             <section
               id="about-me"
-              className="space-y-12 scroll-mt-28 animate-fade-in"
+              className="space-y-12 scroll-mt-[68px] md:scroll-mt-36 animate-fade-in"
             >
               {/* HERO / BIO */}
-              <div className="flex flex-col md:flex-row gap-6 md:gap-8 items-start">
-                <div className="w-32 h-32 md:w-40 md:h-40 shrink-0 relative overflow-hidden rounded-full border border-neutral-200 dark:border-neutral-800 self-center md:self-start">
-                  <Image
-                    src="/arjun.png"
-                    alt="Arjun"
-                    fill
-                    className="object-cover"
-                    sizes="(max-width: 768px) 128px, 160px"
-                    priority
+              <div className="space-y-10">
+                {/* Branded hero with enlarged logo + nameplate */}
+                <div className="relative flex flex-col items-center gap-6 pt-2 pb-4">
+                  {/* 70s radiant halo behind logo */}
+                  <div
+                    aria-hidden="true"
+                    className="absolute left-1/2 top-[45%] -z-[1] aspect-square w-[320px] sm:w-[440px] -translate-x-1/2 -translate-y-1/2 pointer-events-none"
+                    style={{
+                      background:
+                        "radial-gradient(closest-side, rgba(227,181,15,0.32) 0%, rgba(227,115,45,0.18) 38%, rgba(130,80,230,0.14) 62%, transparent 82%)",
+                      filter: "blur(14px)",
+                    }}
                   />
+                  {/* Logo lockup */}
+                  <div className="relative">
+                    <div className="absolute -inset-2 rounded-[28%] pointer-events-none"
+                      style={{
+                        background:
+                          "conic-gradient(from 220deg, rgba(227,181,15,0.55), rgba(227,99,45,0.35), rgba(140,95,255,0.45), rgba(227,181,15,0.55))",
+                        filter: "blur(10px)",
+                        opacity: 0.55,
+                      }}
+                    />
+                    <div className="relative rounded-[28%] bg-white dark:bg-black border border-neutral-200/80 dark:border-neutral-800/80 p-4 sm:p-5">
+                      <Image
+                        src="/logo.png"
+                        alt="neural manacle logo"
+                        width={120}
+                        height={120}
+                        className="h-24 w-24 sm:h-28 sm:w-28 md:h-32 md:w-32 object-cover"
+                        priority
+                      />
+                    </div>
+                  </div>
+                  {/* Name plate */}
+                  <div className="flex flex-col items-center gap-1.5 text-center">
+                    <h1
+                      className="font-mono font-bold tracking-tight text-neutral-900 dark:text-white leading-none"
+                      style={{ fontSize: "clamp(1.9rem, 7vw, 3rem)" }}
+                    >
+                      neural manacle
+                    </h1>
+                    <h2 style={{
+                      fontStyle: 'italic',
+                      color: '#f7b904',
+                      textShadow: '0 0 8px rgba(247, 185, 4, 0.7)',
+                    }}>
+                      in a synthetic dream
+                    </h2>
+                    <div className="flex items-center gap-3">
+                      <span className="h-px w-10 sm:w-16 bg-neutral-300/70 dark:bg-neutral-700/70" />
+                      <span className="font-mono text-[11px] sm:text-xs uppercase tracking-[0.28em] text-[#e3b50f] font-semibold">
+                        Arjun Kishor Shenoy
+                      </span>
+                      <span className="h-px w-10 sm:w-16 bg-neutral-300/70 dark:bg-neutral-700/70" />
+                    </div>
+                    <p className="max-w-lg text-sm sm:text-base font-mono leading-relaxed text-neutral-500 dark:text-neutral-400 italic mt-1">
+                      audio software engineer · musician
+                    </p>
+                  </div>
                 </div>
-                <div className="space-y-4 text-base leading-relaxed text-neutral-600 dark:text-neutral-300 font-mono font-bold text-justify flex-1">
-                  <p>Namaste 🙏</p>
-                  <p>I&apos;m Arjun. a.k.a Neural Manacle!!</p> <br />
-                  
-                  I&apos;m an audio software engineer working in the intersection of audio and technology. 
-                  The deep passion for music especially electronic and the love for synthesizers got me into audio software.
-                  I love writing C++. A big time bibliophile and is into wellness and meditation.
+
+                {/* Bio + portrait */}
+                <div className="flex flex-col md:flex-row gap-6 md:gap-8 items-start pt-4 border-t border-dashed border-neutral-200/80 dark:border-neutral-800/80">
+                  <div className="w-32 h-32 md:w-40 md:h-40 shrink-0 relative overflow-hidden rounded-full border border-neutral-200 dark:border-neutral-800 self-center md:self-start mt-2">
+                    <Image
+                      src="/arjun.png"
+                      alt="Arjun"
+                      fill
+                      className="object-cover"
+                      sizes="(max-width: 768px) 128px, 160px"
+                      priority
+                    />
+                  </div>
+                  <div className="space-y-4 text-base leading-relaxed text-neutral-600 dark:text-neutral-300 font-mono font-bold text-justify flex-1 pt-2 md:pt-0">
+                    <p>Namaste 🙏</p>
+                    <p>I&apos;m Arjun. a.k.a Neural Manacle!!</p> <br />
+                    
+                    I&apos;m an audio software engineer working in the intersection of audio and technology. 
+                    The deep passion for music especially electronic and the love for synthesizers got me into audio software.
+                    I love writing C++. A big time bibliophile and is into wellness and meditation.
+                  </div>
                 </div>
               </div>
 
@@ -1071,7 +1135,7 @@ function PortfolioContent() {
           {currentSection === "resume" && (
             <section
               id="resume"
-              className="space-y-12 scroll-mt-28 animate-fade-in"
+              className="space-y-12 scroll-mt-[68px] md:scroll-mt-36 animate-fade-in"
             >
               <h2 className="text-sm font-mono text-neutral-900 dark:text-neutral-100 uppercase tracking-wider font-bold mb-4">
                 resume
@@ -1189,7 +1253,7 @@ function PortfolioContent() {
 
           {/* ARCHIVES SECTION */}
           {currentSection === "archives" && (
-            <section id="archives" className="space-y-6 scroll-mt-28 animate-fade-in">
+            <section id="archives" className="space-y-6 scroll-mt-[68px] md:scroll-mt-36 animate-fade-in">
               <h2 className="text-sm font-mono text-neutral-900 dark:text-neutral-100 uppercase tracking-wider font-bold mb-4">
                 archives
               </h2>
@@ -1228,7 +1292,7 @@ function PortfolioContent() {
 
 export default function Page() {
   return (
-    <main className="mx-auto w-full max-w-2xl px-4 pt-20 pb-8">
+    <main className="mx-auto w-full max-w-2xl px-4 pt-[68px] md:pt-36 pb-8">
       <React.Suspense fallback={<div className="font-mono text-sm text-neutral-500">Loading...</div>}>
         <PortfolioContent />
       </React.Suspense>

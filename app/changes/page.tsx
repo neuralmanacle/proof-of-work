@@ -13,7 +13,7 @@ export default function ChangesPage() {
     : [todayChange, ...siteChanges]
   const visibleChanges = changes.filter((change) => change.date === todayChange.date)
   return (
-    <main className="mx-auto w-full max-w-2xl px-4 pt-20 pb-8">
+    <main className="mx-auto w-full max-w-2xl px-4 pt-[68px] md:pt-36 pb-8">
       <RevealOnView intensity="soft">
         {/* HEADER */}
         <section className="mb-12">
